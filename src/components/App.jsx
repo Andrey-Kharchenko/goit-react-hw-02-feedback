@@ -35,7 +35,6 @@ export class App extends Component {
     const positivePercentage = this.countPositiveFeedbackPercentage();
 
     return (
-      <>
         <div style={{ padding: '0 20px' }}>
           <Section title="Please leave feedback">
             <FeedbackOptions
@@ -58,7 +57,6 @@ export class App extends Component {
             )}
           </Section>
         </div>
-      </>
     );
   }
 }
